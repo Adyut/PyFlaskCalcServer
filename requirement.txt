@@ -1,0 +1,35 @@
+Python 3.6.4 Server App Requirements 
+----------------------------------
+# PyCharm used as IDE for this project
+PyCharm 2021.1.2 (Community Edition)
+Build #PC-211.7442.45, built on June 2, 2021
+Runtime version: 11.0.11+9-b1341.57 amd64
+VM: Dynamic Code Evolution 64-Bit Server VM by JetBrains s.r.o.
+Windows 10 10.0
+
+
+# Install Flask
+>> pip install flask flask-jsonpify flask-restful 
+
+# Install CORS dependency 
+>> pip install -U flask-cors
+
+# Install Pytest
+>> pip install pytest
+
+# NOTE : 
+<Proj_Home_Dir>\PythonFlaskAngularCalc\CalcServer.py is server file, 
+On running, this project, REST service will be available on URL
+http://127.0.0.1:5050/<Op_Name>
+
+All are POST urls, available exposed REST API URLs are
+http://127.0.0.1:5050/add
+http://127.0.0.1:5050/sub
+http://127.0.0.1:5050/mul
+http://127.0.0.1:5050/div
+
+with Payload JSON 
+{
+	"num1":<Number Type Operand 1>,
+	"num2":<Number Type Operand 2>
+}
