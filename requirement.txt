@@ -33,3 +33,7 @@ with Payload JSON
 	"num1":<Number Type Operand 1>,
 	"num2":<Number Type Operand 2>
 }
+
+# ARC for testing locally 
+Used Advanced Rest Client Chrome Extention tool for testing REST services
+available here : https://install.advancedrestclient.com/install
