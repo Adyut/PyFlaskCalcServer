@@ -22,7 +22,7 @@ Windows 10 10.0
 On running, this project, REST service will be available on URL
 http://127.0.0.1:5050/<Op_Name>
 
-All are POST urls, available exposed REST API URLs are
+All are POST services, available exposed REST API URLs are
 http://127.0.0.1:5050/add
 http://127.0.0.1:5050/sub
 http://127.0.0.1:5050/mul
