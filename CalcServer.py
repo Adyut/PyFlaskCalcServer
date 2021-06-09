@@ -25,6 +25,7 @@ def operation(op_name):
     elif 'neg' == op_name:
         result = so.mul(data['num2'], -1)
 
+    result = round(result, 2)
     print(f"Response is {result}.")
     return jsonify(result)
 

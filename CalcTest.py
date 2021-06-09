@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
     def test_sub(self):
         for i in range(-2, 2):
             for j in range(-2, 2):
-                print(so.sub(i, j), "->", (1 - j))
+                # print(so.sub(i, j), "->", (1 - j))
                 self.assertEqual(so.sub(i, j), (i - j))
 
     def test_mul(self):
